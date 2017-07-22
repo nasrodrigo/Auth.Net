@@ -1,0 +1,16 @@
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.deps.json
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.runtimeconfig.json
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.runtimeconfig.dev.json
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.dll
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.pdb
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/obj/Debug/netcoreapp1.1/dotapp.AssemblyInfo.cs
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/obj/Debug/netcoreapp1.1/dotapp.dll
+C:/Users/rodrigo.monteiro/workspace/Auth.Net-master/obj/Debug/netcoreapp1.1/dotapp.pdb
+/home/rodrigo/Project/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.deps.json
+/home/rodrigo/Project/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.runtimeconfig.json
+/home/rodrigo/Project/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.runtimeconfig.dev.json
+/home/rodrigo/Project/Auth.Net-master/obj/Debug/netcoreapp1.1/dotapp.AssemblyInfo.cs
+/home/rodrigo/Project/Auth.Net-master/obj/Debug/netcoreapp1.1/dotapp.dll
+/home/rodrigo/Project/Auth.Net-master/obj/Debug/netcoreapp1.1/dotapp.pdb
+/home/rodrigo/Project/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.dll
+/home/rodrigo/Project/Auth.Net-master/bin/Debug/netcoreapp1.1/dotapp.pdb
