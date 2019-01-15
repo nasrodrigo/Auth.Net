@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using dotapp.Entitys;
 using dotapp.Models;
 
-namespace dotapp.Controllers
+namespace Auth.Net.Controllers
 {
     public class AppController : Controller
     {

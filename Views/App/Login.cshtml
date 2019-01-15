@@ -6,7 +6,7 @@
     
     @if ( @ViewData["add"] != null )
     {
-        <form action="http://localhost:5000/App/AddUser" method="post">
+        <form action="https://localhost:5001/App/AddUser" method="post">
             First Name:<br>
             <input type="text" name="fname" placeholder="First Name">
             <br>
@@ -30,7 +30,7 @@
     }
     else
     {
-        <form action="http://localhost:5000/App/Login" method="post">
+        <form action="https://localhost:5001/App/Login" method="post">
             Login:<br>
             <input type="text" name="login" placeholder="Login">
             <br>
@@ -39,7 +39,7 @@
             <br><br>
             <input type="submit" value="Submit">
         </form><br>
-        <a href="http://localhost:5000/App/Login?add=true">Sign Up</a>
+        <a href="https://localhost:5001/App/Login?add=true">Sign Up</a>
         
     }
         
