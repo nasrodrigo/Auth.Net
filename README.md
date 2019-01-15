@@ -4,7 +4,7 @@ Get started project
 
   - clone:
 
-    `git clone `
+    `git clone https://github.com/nasrodrigo/Auth.Net.git`
 
   - exculte:
   
