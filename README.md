@@ -6,7 +6,7 @@ Get started project
 
     `git clone https://github.com/nasrodrigo/Auth.Net.git`
 
-  - exculte:
+  - run:
   
     `cd Auth.Net`
     
