@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using dotapp.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -10,6 +9,10 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+using dotapp.Domain.Model.Repositorys;
+using dotapp.Domain.Model.Users;
+using dotapp.Interfaces.Users.Facade;
 
 namespace Auth.Net
 {
@@ -34,9 +37,11 @@ namespace Auth.Net
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddTransient<IUserFacadeService, UserFacadeService>();
             services.AddTransient<IRepositoryServiceLocator, RepositoryServiceLocator>();
             services.AddTransient<IRepository, Repository>();
             services.AddTransient<IUserRepository, UserRepository>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,7 +66,7 @@ namespace Auth.Net
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=App}/{action=Index}");
+                    template: "{controller=User}/{action=Index}");
             });
         }
     }

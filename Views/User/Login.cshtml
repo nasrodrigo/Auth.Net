@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>@ViewData["title"]</h1>
+    
+    @if ( @ViewData["add"] != null )
+    {
+        <form action="http://localhost:5000/User/AddUser" method="post">
+            First Name:<br>
+            <input type="text" name="fname" placeholder="First Name">
+            <br>
+            Last Name:<br>
+            <input type="text" name="lname" placeholder="Last Name">
+            <br>
+            Email:<br>
+            <input type="text" name="email" placeholder="Email">
+            <br>
+            Login:<br>
+            <input type="text" name="login" placeholder="Login">
+            <br>
+            Password:<br>
+            <input type="text" name="password" placeholder="Password">
+            <br>
+            Confirm Password:<br>
+            <input type="text" name="cpassword" placeholder="Confirm Password">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form><br/><br/>
+        <a href="http://localhost:5000">Login</a>
+    }
+    else
+    {
+        <form action="http://localhost:5000/User/Login" method="post">
+            Login:<br>
+            <input type="text" name="login" placeholder="Login">
+            <br>
+            Password:<br>
+            <input type="text" name="password" placeholder="Password">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form><br>
+        <a href="http://localhost:5000/User/Login?add=true">Sign Up</a>
+        
+    }
+        
+</body>
+</html>
