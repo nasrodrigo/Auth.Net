@@ -1,6 +1,6 @@
 using System;
 
-using Auth.Net.Infrastructure.BCrypt.Net;
+using Auth.Net.Infrastructure.HandlerCryptographic;
 
 namespace Auth.Net.Domain.Model.Users
 {
@@ -14,7 +14,7 @@ namespace Auth.Net.Domain.Model.Users
             this.lname = lname;
             this.email = email;
             this.login = login;
-            this.password = HandlerBCrypt.HashGenerated(password);
+            this.password = HandlerCryptographic.HashGenerated(password);
         }
             
         public String fname { get; set; }
@@ -25,7 +25,7 @@ namespace Auth.Net.Domain.Model.Users
 
         public bool IsUser(String login, String password, User user)
         {
-            if(login == user.login && HandlerBCrypt.HashValidate(password, user.password))
+            if(login == user.login && HandlerCryptographic.HashValidate(password, user.password))
             {
                 return true;
             }
