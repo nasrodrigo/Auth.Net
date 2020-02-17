@@ -1,8 +1,8 @@
 using System;
 
-using dotapp.Domain.Model.Users;
+using Auth.Net.Domain.Model.Users;
 
-namespace dotapp.Interfaces.Users.Facade
+namespace Auth.Net.Interfaces.Users.Facade
 {
     public interface IUserFacadeService
     {

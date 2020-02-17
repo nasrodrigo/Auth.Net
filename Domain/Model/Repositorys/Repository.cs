@@ -1,10 +1,10 @@
 using System;
 using System.Runtime.Serialization.Json;
 
-using dotapp.Infrastructure.JsonConvert;
-using dotapp.Infrastructure.HandlerFile;
+using Auth.Net.Infrastructure.JsonConvert;
+using Auth.Net.Infrastructure.HandlerFile;
 
-namespace dotapp.Domain.Model.Repositorys
+namespace Auth.Net.Domain.Model.Repositorys
 {
     public class Repository : IRepository
     {

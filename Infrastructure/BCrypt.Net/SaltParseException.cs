@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace dotapp.Infrastructure.BCrypt.Net
+namespace Auth.Net.Infrastructure.BCrypt.Net
 {
     /// <summary>Exception for signalling parse errors. </summary>
     public class SaltParseException : Exception

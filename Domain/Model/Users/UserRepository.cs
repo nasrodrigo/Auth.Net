@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-using dotapp.Infrastructure.HandlerFile;
-using dotapp.Infrastructure.JsonConvert;
-using dotapp.Domain.Model.Repositorys;
+using Auth.Net.Infrastructure.HandlerFile;
+using Auth.Net.Infrastructure.JsonConvert;
+using Auth.Net.Domain.Model.Repositorys;
 
-namespace dotapp.Domain.Model.Users
+namespace Auth.Net.Domain.Model.Users
 {
     public class UserRepository : Repository, IUserRepository
     {

@@ -1,8 +1,8 @@
 using System;
 
-using Bcrypt = dotapp.Infrastructure.BCrypt.Net.BCrypt;
+using Bcrypt = Auth.Net.Infrastructure.BCrypt.Net.BCrypt;
 
-namespace dotapp.Infrastructure.BCrypt.Net
+namespace Auth.Net.Infrastructure.BCrypt.Net
 {
     public sealed class HandlerBCrypt
     {

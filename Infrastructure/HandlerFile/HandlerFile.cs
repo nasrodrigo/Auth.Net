@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace dotapp.Infrastructure.HandlerFile
+namespace Auth.Net.Infrastructure.HandlerFile
 {
     public sealed class HandlerFile
     {

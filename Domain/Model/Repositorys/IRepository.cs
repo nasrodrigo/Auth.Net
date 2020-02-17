@@ -1,6 +1,6 @@
 using System;
 
-namespace dotapp.Domain.Model.Repositorys
+namespace Auth.Net.Domain.Model.Repositorys
 {
     public interface IRepository 
     {

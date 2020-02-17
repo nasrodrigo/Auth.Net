@@ -10,9 +10,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using dotapp.Domain.Model.Repositorys;
-using dotapp.Domain.Model.Users;
-using dotapp.Interfaces.Users.Facade;
+using Auth.Net.Domain.Model.Repositorys;
+using Auth.Net.Domain.Model.Users;
+using Auth.Net.Interfaces.Users.Facade;
 
 namespace Auth.Net
 {

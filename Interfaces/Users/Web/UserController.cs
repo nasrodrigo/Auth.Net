@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 
-using dotapp.Domain.Model.Users;
-using dotapp.Interfaces.Users.Facade;
+using Auth.Net.Domain.Model.Users;
+using Auth.Net.Interfaces.Users.Facade;
 
-namespace dotapp.Interfaces.Users.Web
+namespace Auth.Net.Interfaces.Users.Web
 {
     public class UserController : Controller
     {

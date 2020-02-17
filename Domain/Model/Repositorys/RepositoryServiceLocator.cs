@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using dotapp.Domain.Model.Users;
+using Auth.Net.Domain.Model.Users;
 
-namespace dotapp.Domain.Model.Repositorys
+namespace Auth.Net.Domain.Model.Repositorys
 {
     //Service locator Pattern
     public class RepositoryServiceLocator : IRepositoryServiceLocator

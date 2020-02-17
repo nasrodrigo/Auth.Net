@@ -20,7 +20,7 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace dotapp.Infrastructure.BCrypt.Net
+namespace Auth.Net.Infrastructure.BCrypt.Net
 {
     /// <summary>BCrypt implementation.</summary>
     /// <remarks>

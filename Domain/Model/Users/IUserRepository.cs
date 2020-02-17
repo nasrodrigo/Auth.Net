@@ -1,8 +1,8 @@
 using System;
 
-using dotapp.Domain.Model.Repositorys;
+using Auth.Net.Domain.Model.Repositorys;
 
-namespace dotapp.Domain.Model.Users
+namespace Auth.Net.Domain.Model.Users
 {
     public interface IUserRepository: IRepository
     {

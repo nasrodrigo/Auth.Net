@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-using dotapp.Domain.Model.Users;
-using dotapp.Domain.Model.Repositorys;
+using Auth.Net.Domain.Model.Users;
+using Auth.Net.Domain.Model.Repositorys;
 
-namespace dotapp.Interfaces.Users.Facade
+namespace Auth.Net.Interfaces.Users.Facade
 {
     public class UserFacadeService : IUserFacadeService
     {

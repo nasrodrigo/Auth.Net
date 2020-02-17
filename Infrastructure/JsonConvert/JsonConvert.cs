@@ -3,7 +3,7 @@ using System.Text;
 using System.IO;
 using System.Runtime.Serialization.Json;
 
-namespace dotapp.Infrastructure.JsonConvert
+namespace Auth.Net.Infrastructure.JsonConvert
 {
     public sealed class JsonConvert
     {

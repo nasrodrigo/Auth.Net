@@ -1,8 +1,8 @@
 using System;
 
-using dotapp.Infrastructure.BCrypt.Net;
+using Auth.Net.Infrastructure.BCrypt.Net;
 
-namespace dotapp.Domain.Model.Users
+namespace Auth.Net.Domain.Model.Users
 {
     public class User
     {
