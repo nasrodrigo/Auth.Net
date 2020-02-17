@@ -1,10 +1,10 @@
 using System;
 
-using Bcrypt = Auth.Net.Infrastructure.BCrypt.Net.BCrypt;
+using Bcrypt = BCrypt.Net.BCrypt;
 
-namespace Auth.Net.Infrastructure.BCrypt.Net
+namespace Auth.Net.Infrastructure.HandlerCryptographic
 {
-    public sealed class HandlerBCrypt
+    public sealed class HandlerCryptographic
     {
         public static String HashGenerated(String value)
         {
